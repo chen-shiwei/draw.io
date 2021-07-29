@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-29T10:12:33.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="pGf_2SdsvT3UVlgrYETL" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-29T10:15:17.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="7XqdNegiPm2S8C8EhOzJ" version="14.9.2" type="github">
   <diagram id="9INgAWD8iqURN_lR67GQ" name="Page-1">
     <mxGraphModel dx="913" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="7I1yyqR9NUluJH5Ya6-J-175" value="clickhouse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7I1yyqR9NUluJH5Ya6-J-193">
           <mxGeometry x="5" y="40" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7I1yyqR9NUluJH5Ya6-J-194" value="kubernetes" style="swimlane;" vertex="1" parent="pnbMd1FAqv032cLjS01y-1">
+        <mxCell id="7I1yyqR9NUluJH5Ya6-J-194" value="k8s 相关操作" style="swimlane;" vertex="1" parent="pnbMd1FAqv032cLjS01y-1">
           <mxGeometry x="40" y="220" width="510" height="240" as="geometry" />
         </mxCell>
         <mxCell id="7I1yyqR9NUluJH5Ya6-J-49" value="cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7I1yyqR9NUluJH5Ya6-J-194">
