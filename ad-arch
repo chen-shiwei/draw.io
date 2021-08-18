@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T11:40:38.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="itilzlVlZVXtU6yV36Bd" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-18T11:45:55.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="Ug2QMGN-eJ19VIyNvkvz" version="14.9.5" type="github">
   <diagram id="hoYGMCSrY6dIvg4v8Gvp" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,9 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="z64PMqGQ28eYOarN8gGJ-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="200" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="z64PMqGQ28eYOarN8gGJ-5" value="bidding-serber" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="94" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z64PMqGQ28eYOarN8gGJ-7" value="App" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="210" width="120" height="60" as="geometry" />
@@ -22,8 +19,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="z64PMqGQ28eYOarN8gGJ-9" value="Ad Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z64PMqGQ28eYOarN8gGJ-8">
-          <mxGeometry y="-3" relative="1" as="geometry">
+        <mxCell id="z64PMqGQ28eYOarN8gGJ-34" value="app 请求广告" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z64PMqGQ28eYOarN8gGJ-8">
+          <mxGeometry x="-0.1923" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -78,10 +75,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="z64PMqGQ28eYOarN8gGJ-24" value="third-platform service" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="40" y="490" width="700" height="280" as="geometry" />
+          <mxGeometry x="50" y="490" width="700" height="280" as="geometry" />
         </mxCell>
         <mxCell id="z64PMqGQ28eYOarN8gGJ-20" value="ADX，获取waterfal 广告竞价" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="z64PMqGQ28eYOarN8gGJ-24">
-          <mxGeometry x="309" y="40" width="170" height="20" as="geometry" />
+          <mxGeometry x="305" y="50" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="z64PMqGQ28eYOarN8gGJ-5" value="bidding-server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="z64PMqGQ28eYOarN8gGJ-24">
+          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z64PMqGQ28eYOarN8gGJ-26" value="self-service" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="220" y="310" width="520" height="160" as="geometry" />
@@ -98,7 +98,7 @@
             <mxPoint x="240" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z64PMqGQ28eYOarN8gGJ-32" value="兜底" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z64PMqGQ28eYOarN8gGJ-29">
+        <mxCell id="z64PMqGQ28eYOarN8gGJ-32" value="广告兜底请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z64PMqGQ28eYOarN8gGJ-29">
           <mxGeometry x="-0.0222" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
