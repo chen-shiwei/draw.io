@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T04:02:59.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="ttdcFHU-OJg4tdw1N2pX" version="15.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-02T07:33:17.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="PlrgXYyF3xUUbxN5PaVY" version="15.0.4" type="github">
   <diagram id="cOc2PRaQhnSMem2y5i4P" name="Page-1">
     <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="2" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="CTL-pdMJJ3sU57L-rsFY-60" value="往member 集群 分发work 对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="CTL-pdMJJ3sU57L-rsFY-30" vertex="1">
           <mxGeometry x="300" y="585" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ED-L7flYXWvhzy4aOEr4-4" value="karmada-system 命令空间" style="swimlane;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CTL-pdMJJ3sU57L-rsFY-30">
+        <mxCell id="ED-L7flYXWvhzy4aOEr4-4" value="karmada-system 命令空间" style="swimlane;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="CTL-pdMJJ3sU57L-rsFY-30" vertex="1">
           <mxGeometry x="45" y="30" width="645" height="610" as="geometry" />
         </mxCell>
         <mxCell id="CTL-pdMJJ3sU57L-rsFY-23" value="Override Policy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ED-L7flYXWvhzy4aOEr4-4" vertex="1">
@@ -46,7 +46,7 @@
             <mxPoint x="316" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CTL-pdMJJ3sU57L-rsFY-58" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ED-L7flYXWvhzy4aOEr4-4" source="CTL-pdMJJ3sU57L-rsFY-23" edge="1" target="CTL-pdMJJ3sU57L-rsFY-57">
+        <mxCell id="CTL-pdMJJ3sU57L-rsFY-58" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="ED-L7flYXWvhzy4aOEr4-4" source="CTL-pdMJJ3sU57L-rsFY-23" target="CTL-pdMJJ3sU57L-rsFY-57" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="266" y="600" as="sourcePoint" />
             <mxPoint x="196" y="470" as="targetPoint" />
@@ -91,22 +91,25 @@
         <mxCell id="CTL-pdMJJ3sU57L-rsFY-50" value="把 k8s 对象和部署策略合并成resource bidding 对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="ED-L7flYXWvhzy4aOEr4-4" vertex="1">
           <mxGeometry x="56" y="270" width="290" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ED-L7flYXWvhzy4aOEr4-7" value="deployments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ED-L7flYXWvhzy4aOEr4-4">
-          <mxGeometry x="466" y="40" width="94" height="30" as="geometry" />
+        <mxCell id="ED-L7flYXWvhzy4aOEr4-51" value="" style="swimlane;startSize=0;" parent="ED-L7flYXWvhzy4aOEr4-4" vertex="1">
+          <mxGeometry x="426" y="180" width="174" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="ED-L7flYXWvhzy4aOEr4-31" value="services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ED-L7flYXWvhzy4aOEr4-4">
-          <mxGeometry x="466" y="80" width="94" height="30" as="geometry" />
+        <mxCell id="ED-L7flYXWvhzy4aOEr4-49" value="ingress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ED-L7flYXWvhzy4aOEr4-51" vertex="1">
+          <mxGeometry x="40" y="130" width="94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ED-L7flYXWvhzy4aOEr4-49" value="ingress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="ED-L7flYXWvhzy4aOEr4-4">
-          <mxGeometry x="466" y="120" width="94" height="30" as="geometry" />
+        <mxCell id="ED-L7flYXWvhzy4aOEr4-31" value="services" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ED-L7flYXWvhzy4aOEr4-51" vertex="1">
+          <mxGeometry x="40" y="90" width="94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ED-L7flYXWvhzy4aOEr4-51" value="" style="swimlane;startSize=0;" vertex="1" parent="ED-L7flYXWvhzy4aOEr4-4">
-          <mxGeometry x="426" y="5" width="174" height="180" as="geometry" />
+        <mxCell id="ED-L7flYXWvhzy4aOEr4-7" value="deployments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ED-L7flYXWvhzy4aOEr4-51" vertex="1">
+          <mxGeometry x="40" y="50" width="94" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ED-L7flYXWvhzy4aOEr4-5" value="kube-system 命名空间" style="swimlane;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="CTL-pdMJJ3sU57L-rsFY-30">
-          <mxGeometry x="721" y="30" width="192" height="130" as="geometry" />
+        <mxCell id="ED-L7flYXWvhzy4aOEr4-52" value="karmada control plane&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="ED-L7flYXWvhzy4aOEr4-51" vertex="1">
+          <mxGeometry x="15" y="10" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ED-L7flYXWvhzy4aOEr4-53" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.139;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="CTL-pdMJJ3sU57L-rsFY-30" source="CTL-pdMJJ3sU57L-rsFY-27" target="ED-L7flYXWvhzy4aOEr4-51">
+        <mxCell id="ED-L7flYXWvhzy4aOEr4-5" value="kube-system 命名空间" style="swimlane;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="CTL-pdMJJ3sU57L-rsFY-30" vertex="1">
+          <mxGeometry x="721" y="30" width="129" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ED-L7flYXWvhzy4aOEr4-53" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.139;entryDx=0;entryDy=0;entryPerimeter=0;" parent="CTL-pdMJJ3sU57L-rsFY-30" source="CTL-pdMJJ3sU57L-rsFY-27" target="ED-L7flYXWvhzy4aOEr4-51" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="381" y="260" as="sourcePoint" />
             <mxPoint x="461" y="59" as="targetPoint" />
@@ -147,9 +150,6 @@
             <mxPoint x="410" y="600" as="sourcePoint" />
             <mxPoint x="460" y="550" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ED-L7flYXWvhzy4aOEr4-52" value="独立 k8s 空间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="610" y="50" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
