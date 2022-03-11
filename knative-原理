@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T09:07:10.759Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="XdIlnAPc8mQTOtMIoF5h" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T09:25:14.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="RTNImOV5m-vbAXn9sLaO" version="16.5.6" type="github">
   <diagram id="qNCT5e5VxgOK2zMLbEFz" name="Page-1">
     <mxGraphModel dx="946" dy="1441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
             <mxPoint x="500" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ggXsfOxhuVdMvO5xLlq-15" value="knative 快照记录" style="swimlane;horizontal=0;rotation=-180;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="7ggXsfOxhuVdMvO5xLlq-15" value="knative 应用快照" style="swimlane;horizontal=0;rotation=-180;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="540" y="227.5" width="170" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7ggXsfOxhuVdMvO5xLlq-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ggXsfOxhuVdMvO5xLlq-16" target="7ggXsfOxhuVdMvO5xLlq-17">
@@ -123,6 +123,29 @@
         <mxCell id="7ggXsfOxhuVdMvO5xLlq-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7ggXsfOxhuVdMvO5xLlq-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ggXsfOxhuVdMvO5xLlq-98" value="Pod" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="530" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7ggXsfOxhuVdMvO5xLlq-99" value="user container" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7ggXsfOxhuVdMvO5xLlq-98">
+          <mxGeometry x="40" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ggXsfOxhuVdMvO5xLlq-100" value="queue-proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7ggXsfOxhuVdMvO5xLlq-98">
+          <mxGeometry x="40" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7ggXsfOxhuVdMvO5xLlq-101" value="knative activator" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="60" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7ggXsfOxhuVdMvO5xLlq-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7ggXsfOxhuVdMvO5xLlq-101" target="7ggXsfOxhuVdMvO5xLlq-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="270" as="sourcePoint" />
+            <mxPoint x="500" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7ggXsfOxhuVdMvO5xLlq-103" value="缩放pod、或者0-&amp;gt;N 冷启动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ggXsfOxhuVdMvO5xLlq-102">
+          <mxGeometry x="-0.4949" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
